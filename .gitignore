@@ -1,0 +1,17 @@
+# Claude Code 用の内部ルール（公開しない）
+CLAUDE.md
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.vscode/
+.idea/
+
+# Power Apps unpack 作業用の一時物（.msapp 本体は公開するのでコミットする）
+*.msapp.bak
+~$*
+unpacked/
+tmp/
